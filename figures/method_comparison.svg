@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <style>.t{font:700 28px Arial,sans-serif;fill:#172033}.h{font:700 20px Arial,sans-serif;fill:#172033}.k{font:600 15px Arial,sans-serif;fill:#475569}.v{font:700 19px Arial,sans-serif;fill:#172033}.card{fill:#f8fafc;stroke:#64748b;stroke-width:2;rx:16}.blue{fill:#eef4ff;stroke:#275efe}.green{fill:#edfdf4;stroke:#159447}.note{font:15px Arial,sans-serif;fill:#334155}</style>
+  <text x="500" y="42" text-anchor="middle" class="t">Selected Device Comparison</text>
+  <rect class="blue" x="70" y="85" width="390" height="360" rx="16"/><text x="265" y="125" text-anchor="middle" class="h">Method 1 — Numerical</text>
+  <text x="120" y="180" class="k">Ion</text><text x="410" y="180" text-anchor="end" class="v">1.474e-04 A/µm</text>
+  <text x="120" y="235" class="k">Ioff</text><text x="410" y="235" text-anchor="end" class="v">1.547e-15 A/µm</text>
+  <text x="120" y="290" class="k">SS</text><text x="410" y="290" text-anchor="end" class="v">85.660 mV/dec</text>
+  <text x="120" y="345" class="k">gm</text><text x="410" y="345" text-anchor="end" class="v">1.044e-04</text>
+  <text x="120" y="400" class="k">Focus</text><text x="410" y="400" text-anchor="end" class="v">Higher Ion</text>
+  <rect class="green" x="540" y="85" width="390" height="360" rx="16"/><text x="735" y="125" text-anchor="middle" class="h">Method 2 — Ion/Ioff–SS</text>
+  <text x="590" y="180" class="k">Ion</text><text x="880" y="180" text-anchor="end" class="v">1.35e-04 A/µm</text>
+  <text x="590" y="235" class="k">Ioff</text><text x="880" y="235" text-anchor="end" class="v">4.93e-16 A/µm</text>
+  <text x="590" y="290" class="k">SS</text><text x="880" y="290" text-anchor="end" class="v">85.181 mV/dec</text>
+  <text x="590" y="345" class="k">gm</text><text x="880" y="345" text-anchor="end" class="v">9.91e-05</text>
+  <text x="590" y="400" class="k">Focus</text><text x="880" y="400" text-anchor="end" class="v">Balanced trade-off</text>
+  <text x="500" y="495" text-anchor="middle" class="h">Final Selection: Method 2</text>
+  <text x="500" y="526" text-anchor="middle" class="note">Ioff decreased by about 68.1% and SS improved by about 0.56%, while Ion remained above target.</text>
+</svg>
