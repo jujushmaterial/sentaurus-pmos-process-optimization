@@ -28,7 +28,7 @@ This project converts a Sentaurus SimpleMOS nMOS example into a pMOS process and
 | SS | 85.181 mV/dec |
 | Vtgm | -1.1421 V |
 
-![Final method comparison](./figures/actual/final_method_comparison.svg)
+![Final method comparison](./figures/actual/method2_optimization.svg)
 
 ---
 
@@ -66,13 +66,13 @@ This project converts a Sentaurus SimpleMOS nMOS example into a pMOS process and
 
 | File | Description |
 |---|---|
-| [`src/sprocess/pmos_process_modifications.cmd`](./src/sprocess/pmos_process_modifications.cmd) | 보고서에서 변경한 SProcess 핵심 command |
-| [`src/sprocess/tdr_checkpoints.cmd`](./src/sprocess/tdr_checkpoints.cmd) | 13단계 TDR 저장 command |
-| [`src/sdevice/pmos_bias_sweep.cmd`](./src/sdevice/pmos_bias_sweep.cmd) | pMOS drain/gate sweep 설정 |
-| [`src/svisual/pmos_metric_extraction.tcl`](./src/svisual/pmos_metric_extraction.tcl) | pMOS 전류 처리와 성능 지표 자동 추출 |
-| [`src/coursework/tdr_checkpoint_example.cmd`](./src/coursework/tdr_checkpoint_example.cmd) | 선행 실습에서 사용한 TDR 저장 예시 |
+| [`source/sprocess/pmos_process_modifications.cmd`](./source/sprocess/pmos_process_modifications.cmd) | 보고서에서 변경한 SProcess 핵심 command |
+| [`source/sprocess/tdr_checkpoints.cmd`](./source/sprocess/tdr_checkpoints.cmd) | 13단계 TDR 저장 command |
+| [`source/sdevice/pmos_bias_sweep.cmd`](./source/sdevice/pmos_bias_sweep.cmd) | pMOS drain/gate sweep 설정 |
+| [`source/svisual/pmos_metric_extraction.tcl`](./source/svisual/pmos_metric_extraction.tcl) | pMOS 전류 처리와 성능 지표 자동 추출 |
+| [`source/coursework/tdr_checkpoint_example.cmd`](./source/coursework/tdr_checkpoint_example.cmd) | 선행 실습에서 사용한 TDR 저장 예시 |
 
-> `src/`의 코드는 최종 보고서에 제시된 수정·추출 command를 정리한 것입니다. 전체 원본 프로젝트 파일이 확보되면 같은 폴더에 추가할 수 있습니다.
+> `source/`의 코드는 최종 보고서에 제시된 수정·추출 command를 정리한 것입니다. 전체 원본 프로젝트 파일이 확보되면 같은 폴더에 추가할 수 있습니다.
 
 ---
 
@@ -93,7 +93,7 @@ sentaurus-pmos-process-optimization/
 │   └── 07_limitations.md
 ├── figures/
 │   └── actual/
-├── src/
+├── source/
 │   ├── coursework/
 │   ├── sprocess/
 │   ├── sdevice/
