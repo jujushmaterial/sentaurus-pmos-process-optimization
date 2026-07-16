@@ -59,7 +59,7 @@ The project covers the complete conversion, simulation, extraction, and multi-ob
 | Tools | SVisual, SProcess TDR, Workbench split |
 | Scope | Lg, GOxTime, LDD_Dose, SD_Dose 기초 비교 |
 
-![Preliminary TDR and structure comparison](../figures/actual/project_overview.svg)
+![Preliminary TDR and structure comparison](../figures/actual/project_overview.jpg)
 
 ## Practice 1: Structure and Transfer Curve
 
