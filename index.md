@@ -171,5 +171,5 @@ Baseline → LDD → Source/Drain → RTA → Spacer → Fine Split
 ## Report and Repository
 
 - [Public Report](./report/pmos_process_optimization_report.pdf)
-- [GitHub Repository](https://github.com/jujushmaterial/sentaurus-pmos-process-optimization)
+- [GitHub Repository](https://github.com/jujushmaterial/TCAD-pMOS-process-optimization)
 - [Main Portfolio](https://jujushmaterial.github.io/)
