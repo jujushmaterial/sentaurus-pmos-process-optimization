@@ -28,7 +28,7 @@ This project converts a Sentaurus SimpleMOS nMOS example into a pMOS process and
 | SS | 85.181 mV/dec |
 | Vtgm | -1.1421 V |
 
-![Final method comparison](./figures/actual/method2_optimization.svg)
+![Final method comparison](./figures/actual/method2_optimization.jpg)
 
 ---
 
