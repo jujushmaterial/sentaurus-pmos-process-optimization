@@ -8,7 +8,7 @@
 | Method | SProcess 공정 직후마다 TDR 저장 |
 | Output | 13개 checkpoint와 최종 대칭 구조 |
 
-![Actual pMOS process flow](../figures/actual/project_overview.svg)
+![Actual pMOS process flow](../figures/actual/project_overview.jpg)
 
 ## Checkpoints
 
