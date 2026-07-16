@@ -39,7 +39,7 @@ Goal { Name="gate" Voltage=@Vg@ }
 
 ## Verification
 
-![pMOS transfer curve](../figures/actual/project_overview.svg)
+![pMOS transfer curve](../figures/actual/project_overview.jpg)
 
 - Vg = 0 V 부근에서 off current 확인
 - Vg가 -2.5 V 방향으로 이동할수록 `|Id|` 증가
