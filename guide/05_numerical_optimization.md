@@ -66,7 +66,7 @@ LDD_Dose = 3e13, 4e13, 5e13, 6e13, 7e13, 8e13
 LDD_E    = 3, 5, 7 keV
 ```
 
-![Method 1 LDD Workbench results](../figures/actual/method1_optimization.svg)
+![Method 1 LDD Workbench results](../figures/actual/method1_optimization.jpg)
 
 - 3 keV: leakage가 매우 낮지만 Ion이 상대적으로 낮음
 - 7 keV: target 범위 안에서 Ion이 가장 큰 경향
@@ -91,7 +91,7 @@ SD_Dose = 1e16, 2e16, 5e16 cm^-2
 SD_E    = 10, 15, 20 keV
 ```
 
-![S/D split results](../figures/actual/method1_optimization.svg)
+![S/D split results](../figures/actual/method1_optimization.jpg)
 
 - `SD_Dose = 1e16`: leakage는 양호하지만 Ion 확보가 불리
 - `2e16`, `5e16`: Ion 증가와 target 유지
@@ -116,7 +116,7 @@ SD_Dose = 4e16, 5e16, 6e16
 SD_E    = 18, 20, 22 keV
 ```
 
-![Fine split 1](../figures/actual/method1_optimization.svg)
+![Fine split 1](../figures/actual/method1_optimization.jpg)
 
 ### Fine Split 2
 
@@ -132,7 +132,7 @@ SD_Dose = 3.8e16, 4.2e16, 4.6e16
 SD_E    = 22, 22.5, 23 keV
 ```
 
-![Fine split results](../figures/actual/method1_optimization.svg)
+![Fine split results](../figures/actual/method1_optimization.jpg)
 
 ## Selected Device
 
