@@ -1,4 +1,12 @@
 (() => {
+  const projectStatus = document.querySelector('.status');
+  if (projectStatus) {
+    [...projectStatus.childNodes].forEach((node) => {
+      if (node.nodeType === Node.TEXT_NODE) node.remove();
+    });
+    projectStatus.append(' Complete');
+  }
+
   const modal = document.getElementById('floating-code-modal');
   const codeElement = document.getElementById('floating-code-content');
   const codeScroll = document.getElementById('floating-code-scroll');
