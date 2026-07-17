@@ -1,0 +1,13 @@
+title: TCAD pMOS Process Optimization
+description: Sentaurus SimpleMOS nMOS-to-pMOS conversion and process-condition comparison using SProcess, SDevice, and SVisual.
+theme: jekyll-theme-cayman
+show_downloads: false
+lang: ko-KR
+exclude:
+  - index.md
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
